@@ -1,0 +1,30 @@
+@extends('layouts.pemandu')
+
+@section('title', 'Rilis Kuesioner')
+
+@section('title-page', 'Rilis Kuesioner')
+
+@section('content')
+	<div class="row center">
+		<div class="col s8 offset-s2">
+			<h5>Materi 2</h5>
+			<form>
+				<div class="row">
+					<div class="switch col s8 offset-s2">
+						<h1>
+							<label>
+								Off
+								<input type="checkbox" name="rilis">
+								<span class="lever"></span>
+								On
+							</label>
+						</h1>
+					</div>
+					<div class="col s8 offset-s2" style="margin-top: 30px;">
+						<button class="btn waves-effect waves-light">GO</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+@endsection
