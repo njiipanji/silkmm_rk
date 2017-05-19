@@ -12,15 +12,15 @@
 
 @section('content')
 	{{-- If terdaftar--}}
-	<div class="col s12 center" style="margin-top: 50px;">
+	{{-- <div class="col s12 center" style="margin-top: 50px;">
 		<h3 style="margin-bottom: 0px;">Anda sudah terdaftar.</h3>
 		<h6 style="margin-bottom: 25px;"><em>Silahkan lengkapi berkas-berkas yang diperlukan!</em></h6>
 		<a href="{{ url('/peserta') }}" class="btn waves-effect waves-light red darken-2">Kembali</a>
 		<a href="{{ url('/peserta/berkas') }}" class="btn waves-effect waves-light">Lengkapi Berkas</a>
-	</div>
+	</div> --}}
 
 	{{-- form daftar --}}
-	{{-- <div class="col s8 offset-s2" style="margin-top: 50px;">
+	<div class="col s8 offset-s2" style="margin-top: 50px;">
 		<form>
 			<div class="row">
 				<div class="input-field col s10 offset-s1 col m8 offset-m2">
@@ -44,5 +44,5 @@
 				<button type="submit" class="btn waves-effect waves-light">Daftar</button>
 			</div>
 		</form>
-	</div> --}}
+	</div>
 @endsection
