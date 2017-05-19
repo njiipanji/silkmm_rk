@@ -22,7 +22,7 @@
 						<option value="3">Materi 3</option>
 						<option value="4">Materi 4</option>
 					</select>
-					<label for="nama_pemateri">Materi</label>
+					<label for="materi">Materi</label>
 				</div>
 
 				{{-- Untuk Fasilitator --}}
@@ -39,10 +39,10 @@
 						<label for="persiapan_fasilitator">Persiapan Fasilitator</label>	
 					</div>
 					<div class="col m8">
-						<input name="persiapan_fasilitator" type="radio" id="tb" value="1"/><label for="stb">1</label>
-						<input name="persiapan_fasilitator" type="radio" id="c" value="2"/><label for="tb">2</label>
-						<input name="persiapan_fasilitator" type="radio" id="b" value="3"/><label for="b">3</label>
-						<input name="persiapan_fasilitator" type="radio" id="sb" value="4"/><label for="sb">4</label>
+						<input name="persiapan_fasilitator" type="radio" id="tb_persiapan_fasilitator" value="1"/><label for="tb_persiapan_fasilitator">1</label>
+						<input name="persiapan_fasilitator" type="radio" id="c_persiapan_fasilitator" value="2"/><label for="c_persiapan_fasilitator">2</label>
+						<input name="persiapan_fasilitator" type="radio" id="b_persiapan_fasilitator" value="3"/><label for="b_persiapan_fasilitator">3</label>
+						<input name="persiapan_fasilitator" type="radio" id="sb_persiapan_fasilitator" value="4"/><label for="sb_persiapan_fasilitator">4</label>
 					</div>
 				</div>
 				<div class="col s12 col m8 offset-m2" style="margin-top: 25px;">
