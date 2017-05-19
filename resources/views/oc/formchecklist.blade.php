@@ -97,7 +97,7 @@
 				</div>
 			</div>
 			<div class="row center" style="margin-top: 50px;">
-				<a href="{{ url::previous() }}" class="btn waves-effect waves-light red darken-2">Kembali</a>
+				<a href="{{ URL::previous() }}" class="btn waves-effect waves-light red darken-2">Kembali</a>
 				<button type="submit" class="btn waves-effect waves-light">Masukkan</button>
 			</div>
 		</form>
