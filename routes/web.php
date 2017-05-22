@@ -22,6 +22,9 @@ Route::get('/pemandu', 'PemanduController@index');
  // Tambah pengumuman
 
  // Ubah pengumuman
+Route::get('/pemandu/pengumuman/{id}', function(){
+    return view('pemandu.editpengumuman');
+});
 
  // Hapus pengumuman
 
@@ -57,6 +60,9 @@ Route::get('/pemandu/peserta/bagikelas/aturkelas', function() {
  // Tambah
 
  // Update
+Route::get('/pemandu/peserta/bagikelas/aturkelas/{id}', function() {
+    return view('pemandu.ubahaturkelas');
+});
 
  // Delete
 
@@ -96,6 +102,9 @@ Route::get('/pemandu/buat/pa', function() {
  // Insert pernyataan PA
 
  // Update pernyataan PA
+Route::get('/pemandu/buat/pa/{id}', function() {
+    return view('pemandu.ubahpa');
+});
 
 // Routing menu oc
 Route::get('/pemandu/oc', 'PemanduController@menuoc');
