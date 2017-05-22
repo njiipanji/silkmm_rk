@@ -28,7 +28,7 @@
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
-					<td><a href="{{ url('pemandu/buat/pa') }}"><i class="material-icons teal-text">mode_edit</i></a></td>
+					<td><a href="{{ url('pemandu/buat/pa/1') }}"><i class="material-icons teal-text" title="Ubah PA">mode_edit</i></a></td>
 				</tr>
 				<tr>
 					<td>2</td>
@@ -38,27 +38,27 @@
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
-					<td><a href="{{ url('pemandu/buat/pa') }}"><i class="material-icons teal-text">mode_edit</i></a></td>
+					<td><a href="{{ url('pemandu/buat/pa/2') }}"><i class="material-icons teal-text" title="Ubah PA">mode_edit</i></a></td>
 				</tr>
 				<tr>
 					<td>3</td>
 					<td>Materi 3</td>
-					<td>txt</td>
-					<td>txt</td>
-					<td>txt</td>
-					<td>txt</td>
 					<td>-</td>
-					<td><a href="{{ url('pemandu/buat/pa') }}"><i class="material-icons teal-text">mode_edit</i></a></td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td><a href="{{ url('pemandu/buat/pa') }}"><i class="material-icons teal-text" title="Tambah PA">add</i></a></td>
 				</tr>
 				<tr>
 					<td>4</td>
 					<td>Materi 4</td>
-					<td>txt</td>
-					<td>txt</td>
-					<td>txt</td>
 					<td>-</td>
 					<td>-</td>
-					<td><a href="{{ url('pemandu/buat/pa') }}"><i class="material-icons teal-text">mode_edit</i></a></td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td><a href="{{ url('pemandu/buat/pa') }}"><i class="material-icons teal-text" title="Tambah PA">add</i></a></td>
 				</tr>
 			</tbody>
 		</table>
