@@ -31,7 +31,7 @@
 				</div>
 				<div class="input-field col s7">
 					<input id="indikator1" type="text" required>
-					<label for="indikator1">Indikator 1</label>
+					<label for="indikator1">Indikator 1 (wajib diisi!)</label>
 				</div>
 				<div class="input-field col s7 offset-s4">
 					<input id="indikator2" type="text">
@@ -51,6 +51,7 @@
 				</div>
 			</div>
 			<div class="row center">
+				<a href="{{ URL::previous() }}" class="modal-action modal-close waves-effect waves-red btn red">Kembali</a>
 				<button type="submit" class="btn waves-effect waves-light">Buat</button>
 			</div>
 		</form>
