@@ -41,7 +41,7 @@
 				</div>
 			</div>
 			<div class="row center" style="margin-top: 50px;">
-				<button type="submit" class="btn waves-effect waves-light">Daftar</button>
+				<button type="submit" class="btn waves-effect waves-light blue lighten-1">Daftar</button>
 			</div>
 		</form>
 	</div>

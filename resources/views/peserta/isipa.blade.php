@@ -82,7 +82,7 @@
 			</div>
 			<div class="row center" style="margin-top: 50px;">
 				<a href="{{ url('/peserta/isipa') }}" class="btn waves-effect waves-light red darken-2">Batal</a>
-				<button type="submit" class="btn waves-effect waves-light">Selesai</button>
+				<button type="submit" class="btn waves-effect waves-light blue lighten-1">Selesai</button>
 			</div>
 		</form>
 	</div>

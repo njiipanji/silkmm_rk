@@ -17,7 +17,7 @@
 		<form enctype="multipart/form-data">
 			<div class="row">
 				<div class="file-field input-field col s10 offset-s1 col m8 offset-m2">
-					<div class="btn">
+					<div class="btn blue lighten-1">
 					<span>File</span>
 						<input type="file" id="berkas" name="berkas">
 					</div>
@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div class="row center" style="margin-top: 50px;">
-				<button type="submit" class="btn waves-effect waves-light">Upload</button>
+				<button type="submit" class="btn waves-effect waves-light blue lighten-1">Upload</button>
 				{{-- If sudah upload, tampilkan button ini --}}
 				{{-- <button type="submit" class="btn waves-effect waves-light">Reupload</button> --}}
 			</div>

@@ -30,8 +30,8 @@
 		<header>
 			{{-- dropdown list --}}
 			<ul id="dropdown_pakuesioner" class="dropdown-content">
-				<li><a href="{{ url('/peserta/isipa') }}">PA</a></li>
-				<li><a href="{{ url('/peserta/kuesioner') }}">Kuesioner</a></li>
+				<li><a class="blue-text text-lighten-1" href="{{ url('/peserta/isipa') }}">PA</a></li>
+				<li><a class="blue-text text-lighten-1" href="{{ url('/peserta/kuesioner') }}">Kuesioner</a></li>
 			</ul>
 			<ul id="dropdown_profile" class="dropdown-content">
 				<li><a href="{{ url('/') }}">Logout</a></li>
@@ -51,7 +51,7 @@
 						{{-- Closed menu --}}
 					</ul>
 					<ul class="right hide-on-med-and-down">
-						<li class="teal lighten-1"><a class="dropdown-button" href="#!" data-activates="dropdown_profile"><i class="material-icons left">person</i>5114100001</a></li>
+						<li class="blue lighten-1"><a class="dropdown-button" href="#!" data-activates="dropdown_profile"><i class="material-icons left ">person</i>5114100001</a></li>
 					</ul>
 
 					<ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
