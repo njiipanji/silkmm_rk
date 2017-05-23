@@ -30,8 +30,8 @@
 		<header>
 			{{-- dropdown list --}}
 			<ul id="dropdown_oc" class="dropdown-content">
-				<li><a href="{{ url('/oc/checklist') }}">Checklist</a></li>
-				<li><a href="{{ url('/oc/registrasi') }}">Registrasi</a></li>
+				<li><a class="red-text text-lighten-1" href="{{ url('/oc/checklist') }}">Checklist</a></li>
+				<li><a class="red-text text-lighten-1" href="{{ url('/oc/registrasi') }}">Registrasi</a></li>
 			</ul>
 			<ul id="dropdown_profile" class="dropdown-content">
 				<li><a href="{{ url('/') }}">Logout</a></li>
@@ -46,7 +46,7 @@
 						<li class="{{ Request::is('/oc/input','/oc/checklist','/oc/registrasi') ? 'active' : 'no' }}"><a class="dropdown-button grey-text text-darken-3" href="#!" data-activates="dropdown_oc">Input<i class="material-icons right">arrow_drop_down</i></a></li>
 					</ul>
 					<ul class="right hide-on-med-and-down">
-						<li class="teal lighten-1"><a class="dropdown-button" href="#!" data-activates="dropdown_profile"><i class="material-icons left">insert_emoticon</i>OC</a></li>
+						<li class="red lighten-1"><a class="dropdown-button" href="#!" data-activates="dropdown_profile"><i class="material-icons left">insert_emoticon</i>OC</a></li>
 					</ul>
 
 					<ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">

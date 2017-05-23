@@ -8,12 +8,12 @@
 	{{-- list menu --}}
 	<div class="row center" style="margin-top: 50px;">
 		<div class="col s12">
-			<a href="{{ url('oc/checklist') }}" class="btn-large waves-effect waves-light">Input Checklist Peserta</a>
+			<a href="{{ url('oc/checklist') }}" class="btn-large waves-effect waves-light red lighten-1">Input Checklist Peserta</a>
 		</div>
 	</div>
 	<div class="row center">
 		<div class="col s12">
-			<a href="{{ url('oc/registrasi') }}" class="btn-large waves-effect waves-light">Input Registrasi Materi</a>
+			<a href="{{ url('oc/registrasi') }}" class="btn-large waves-effect waves-light red lighten-1">Input Registrasi Materi</a>
 		</div>
 	</div>
 @endsection

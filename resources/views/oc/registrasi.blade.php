@@ -31,7 +31,7 @@
 					<td>1</td>
 					<td>0</td>
 					<td>0</td>
-					<td><a href="/oc/registrasi/511x100xxx" class="btn waves-effect waves-light">Cek!</a></td>
+					<td><a href="{{ url('/oc/registrasi/511x100xxx') }}" class="btn waves-effect waves-light red lighten-1">Cek!</a></td>
 				</tr>
 				<tr>
 					<td>2</td>
@@ -42,7 +42,7 @@
 					<td>1</td>
 					<td>0</td>
 					<td>0</td>
-					<td><a href="/oc/registrasi/511x100xxx" class="btn waves-effect waves-light">Cek!</a></td>
+					<td><a href="{{ url('/oc/registrasi/511x100xxx') }}" class="btn waves-effect waves-light red lighten-1">Cek!</a></td>
 				</tr>
 				<tr>
 					<td>3</td>
@@ -53,7 +53,7 @@
 					<td>1</td>
 					<td>0</td>
 					<td>0</td>
-					<td><a href="/oc/registrasi/511x100xxx" class="btn waves-effect waves-light">Cek!</a></td>
+					<td><a href="{{ url('/oc/registrasi/511x100xxx') }}" class="btn waves-effect waves-light red lighten-1">Cek!</a></td>
 				</tr>
 				<tr>
 					<td>4</td>
@@ -64,7 +64,7 @@
 					<td>1</td>
 					<td>0</td>
 					<td>0</td>
-					<td><a href="/oc/registrasi/511x100xxx" class="btn waves-effect waves-light">Cek!</a></td>
+					<td><a href="{{ url('/oc/registrasi/511x100xxx') }}" class="btn waves-effect waves-light red lighten-1">Cek!</a></td>
 				</tr>
 			</tbody>
 		</table>
