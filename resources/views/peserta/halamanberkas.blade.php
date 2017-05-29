@@ -36,6 +36,6 @@
 
 	{{-- If sudah upload, tampilkan pesan --}}
 	<div class="col s12 center" style="margin-top: 50px;">
-		<h6>Anda sudah upload berkas sebelumnya, download <a href="#!"><strong>berkas</strong></a>.</h6>
+		<!-- <h6>Anda sudah upload berkas sebelumnya, download <a href="#!"><strong>berkas</strong></a>.</h6> -->
 	</div>
 @endsection
