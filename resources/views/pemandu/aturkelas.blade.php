@@ -25,7 +25,7 @@
 					<td>IF-101</td>
 					<td>2/30</td>
 					<td>
-						<a class="btn green" style="height: 25px; font-weight: bold; padding: 0 1rem; margin-bottom: 5px;" href="/pemandu/peserta/bagikelas/aturkelas/1" title="Ubah"><i style="line-height: 5px;" class="material-icons white-text">mode_edit</i></a><input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus kelas" style="height: 25px; line-height: 5px; padding: 0 1.3rem; font-weight: bold; margin-bottom: 5px; margin-left: 10px;">
+						<a class="btn green" style="height: 25px; font-weight: bold; padding: 0 1rem; margin-bottom: 5px;" href="{{url('/pemandu/peserta/bagikelas/aturkelas/1')}}" title="Ubah"><i style="line-height: 5px;" class="material-icons white-text">mode_edit</i></a><input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus kelas" style="height: 25px; line-height: 5px; padding: 0 1.3rem; font-weight: bold; margin-bottom: 5px; margin-left: 10px;">
 					</td>
 				</tr>
 				<tr>
@@ -33,7 +33,7 @@
 					<td>IF-102</td>
 					<td>1/29</td>
 					<td>
-						<a class="btn green" style="height: 25px; font-weight: bold; padding: 0 1rem; margin-bottom: 5px;" href="/pemandu/peserta/bagikelas/aturkelas/2" title="Ubah"><i style="line-height: 5px;" class="material-icons white-text">mode_edit</i></a><input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus kelas" style="height: 25px; line-height: 5px; padding: 0 1.3rem; font-weight: bold; margin-bottom: 5px; margin-left: 10px;">
+						<a class="btn green" style="height: 25px; font-weight: bold; padding: 0 1rem; margin-bottom: 5px;" href="{{url('/pemandu/peserta/bagikelas/aturkelas/2')}}" title="Ubah"><i style="line-height: 5px;" class="material-icons white-text">mode_edit</i></a><input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus kelas" style="height: 25px; line-height: 5px; padding: 0 1.3rem; font-weight: bold; margin-bottom: 5px; margin-left: 10px;">
 					</td>
 				</tr>
 				<tr>
@@ -41,7 +41,7 @@
 					<td>IF-103</td>
 					<td>0/30</td>
 					<td>
-						<a class="btn green" style="height: 25px; font-weight: bold; padding: 0 1rem; margin-bottom: 5px;" href="/pemandu/peserta/bagikelas/aturkelas/3" title="Ubah"><i style="line-height: 5px;" class="material-icons white-text">mode_edit</i></a><input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus kelas" style="height: 25px; line-height: 5px; padding: 0 1.3rem; font-weight: bold; margin-bottom: 5px; margin-left: 10px;">
+						<a class="btn green" style="height: 25px; font-weight: bold; padding: 0 1rem; margin-bottom: 5px;" href="{{url('/pemandu/peserta/bagikelas/aturkelas/3')}}" title="Ubah"><i style="line-height: 5px;" class="material-icons white-text">mode_edit</i></a><input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus kelas" style="height: 25px; line-height: 5px; padding: 0 1.3rem; font-weight: bold; margin-bottom: 5px; margin-left: 10px;">
 					</td>
 				</tr>
 			</tbody>
