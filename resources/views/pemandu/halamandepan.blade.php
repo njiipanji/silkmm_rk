@@ -15,7 +15,7 @@
 			<li>
 				<div class="collapsible-header">
 					<span class="badge">
-						<a class="btn green" style="height: 20px; line-height: 10px; padding: 0 1rem;" href="/pemandu/pengumuman/1"><i class="material-icons" title="Ubah pengumuman" style=" width: 1rem; font-size: 1rem; line-height: 1.5rem; margin-right: 0px;">mode_edit</i></a>
+						<a class="btn green" style="height: 20px; line-height: 10px; padding: 0 1rem;" href="{{url('/pemandu/pengumuman/1')}}"><i class="material-icons" title="Ubah pengumuman" style=" width: 1rem; font-size: 1rem; line-height: 1.5rem; margin-right: 0px;">mode_edit</i></a>
 						<input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus pengumuman" style="height: 20px; line-height: 10px; padding: 0 1.2rem; font-weight: bold;">
 					</span> 04-03-2017 15:00 | Pengumuman 1</div>
 				<div class="collapsible-body"><span>Ini isi pengumuman 1.</span></div>
@@ -23,7 +23,7 @@
 			<li>
 				<div class="collapsible-header">
 					<span class="badge">
-						<a class="btn green" style="height: 20px; line-height: 10px; padding: 0 1rem;" href="/pemandu/pengumuman/2"><i class="material-icons" title="Ubah pengumuman" style=" width: 1rem; font-size: 1rem; line-height: 1.5rem; margin-right: 0px;">mode_edit</i></a>
+						<a class="btn green" style="height: 20px; line-height: 10px; padding: 0 1rem;" href="{{url('/pemandu/pengumuman/2')}}"><i class="material-icons" title="Ubah pengumuman" style=" width: 1rem; font-size: 1rem; line-height: 1.5rem; margin-right: 0px;">mode_edit</i></a>
 						<input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus pengumuman" style="height: 20px; line-height: 10px; padding: 0 1.2rem; font-weight: bold;">
 					</span> 03-03-2017 18:00 | Pengumuman 2</div>
 				<div class="collapsible-body"><span>Ini isi pengumuman 2.</span></div>
@@ -31,7 +31,7 @@
 			<li>
 				<div class="collapsible-header">
 					<span class="badge">
-						<a class="btn green" style="height: 20px; line-height: 10px; padding: 0 1rem;" href="/pemandu/pengumuman/3"><i class="material-icons" title="Ubah pengumuman" style=" width: 1rem; font-size: 1rem; line-height: 1.5rem; margin-right: 0px;">mode_edit</i></a>
+						<a class="btn green" style="height: 20px; line-height: 10px; padding: 0 1rem;" href="{{url('/pemandu/pengumuman/3')}}"><i class="material-icons" title="Ubah pengumuman" style=" width: 1rem; font-size: 1rem; line-height: 1.5rem; margin-right: 0px;">mode_edit</i></a>
 						<input type="submit" class="btn red" onclick="return confirm('Anda yakin akan menghapus data?');" value="x" title="Hapus pengumuman" style="height: 20px; line-height: 10px; padding: 0 1.2rem; font-weight: bold;">
 					</span> 03-03-2017 18:00 | Pengumuman 3</div>
 				<div class="collapsible-body"><span>Ini isi pengumuman 3.</span></div>

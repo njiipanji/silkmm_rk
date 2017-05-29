@@ -20,12 +20,12 @@
 					<td>1</td>
 					<td>Materi 1</td>
 					<td><i class="material-icons teal-text">done</i></td>
-					<td title="selesai">1</td>
+					<td title="selesai">Selesai</td>
 				</tr>
 				<tr>
 					<td>2</td>
 					<td>Materi 2</td>
-					<td title="proses"><i class="material-icons teal-text">hourglass_empty</i></td>
+					<td title="proses"><a href="{{url('pemandu/buat/riliskuesioner')}}"><i class="material-icons teal-text">hourglass_empty</i></a></td>
 					<td>Proses</td>
 				</tr>
 				<tr>

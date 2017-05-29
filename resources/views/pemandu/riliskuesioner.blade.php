@@ -13,15 +13,15 @@
 					<div class="switch col s8 offset-s2">
 						<h1>
 							<label>
-								Off
+								Tutup
 								<input type="checkbox" name="rilis">
 								<span class="lever"></span>
-								On
+								Buka
 							</label>
 						</h1>
 					</div>
 					<div class="col s8 offset-s2" style="margin-top: 30px;">
-						<button class="btn waves-effect waves-light">GO</button>
+						<a href="{{url('/pemandu/buat/daftarkuesioner')}}" class="btn waves-effect waves-light">GO</a>
 					</div>
 				</div>
 			</form>
